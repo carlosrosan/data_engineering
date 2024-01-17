@@ -2,10 +2,9 @@ import requests
 import pandas as pd
 import re
 import datetime
-from datetime import datetime, date, timedelta
+from datetime import datetime, timedelta
 import os
 import json
-import glob
 import logging
 
 # Log Config

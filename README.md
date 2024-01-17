@@ -1,5 +1,6 @@
 # data_engineering
-Hi, my name is Carlos Rodriguez. You can contact me at carlosd2.rodriguez@gmail.com if you have any comments.
+
+Hi, my name is Carlos Rodriguez. I'm a Data Engineer. You can contact me at carlosd2.rodriguez@gmail.com if you have any comments.
 
 Here's some data engineering sample code of a late project of mine.
 
@@ -11,4 +12,4 @@ The entities that can be queried are case transactions such as cases and their i
 
 The script allows to set up how long back the user needs to query data, how frequent, and where to store it.
 
-The proyect also consist in the data warehouse ingestion of the .csv output files, but that can be made using an ETL software solution, suchn as ADF, SSIS, and others.
+The proyect also consist in the data warehouse ingestion of the .csv output files, but that can be made using an ETL software solution, such as ADF, SSIS, and others.
