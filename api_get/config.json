@@ -1,0 +1,111 @@
+{
+    "config": {
+        "API_url": "https://XXXXX/core/v1",
+        "API_user": "XXXX",
+        "API_keyName": "X-API-KEY",
+        "API_key": "XXXXXXXXXXXXXXXXXXXX",
+        "max_days_query": 30
+    },
+    "download_extract": {
+        "activities": {
+            "name": "activities",
+            "last_date": "20211027",
+            "last_time": "0000",
+            "filter_by": "created_at",
+            "filename": "activities_",
+            "path": "F:\\XXXXXX\\IN\\Activities\\",
+            "out_path": "F:\\XXXXX\\OUT\\Activities\\",
+            "columnas": [
+                "id",
+                "case_id",
+                "type",
+                "user_id",
+                "channel",
+                "created_at",
+                "content",
+                "contact_from",
+                "contacts_to",
+                "attachments",
+                "sending_status",
+                "recordings"
+            ]
+        },
+        "cases": {
+            "name": "cases",
+            "last_date": "20211027",
+            "last_time": "0000",
+            "filter_by": "last_update",
+            "filename": "cases_",
+            "path": "F:\\XXXXXXX\\IN\\Cases\\",
+            "cases_out_path": "F:\\XXXXXXX\\OUT\\Cases\\",
+            "contacts_filename": "contacts_",
+            "contacts_path": "F:\\XXXXXXX\\IN\\Contacts\\",
+            "contacts_out_path": "F:\\XXXXXXX\\OUT\\Contacts\\",
+            "cf_filename": "customfields_",
+            "cf_path": "F:\\XXXXXXX\\IN\\CustomFields\\",
+            "cf_out_path": "F:\\XXXXXXX\\OUT\\CustomFields\\",
+            "tags_filename": "casetags_",
+            "tags_path": "F:\\XXXXXXX\\IN\\CaseTags\\",
+            "tags_out_path": "F:\\XXXXXXX\\OUT\\CaseTags\\",
+            "columnas_casos": [
+                "id",
+                "number",
+                "group_id",
+                "user_id",
+                "contact_id",
+                "status",
+                "source_channel",
+                "tags",
+                "type_id",
+                "subject",
+                "priority",
+                "due_at",
+                "custom_fields",
+                "created_at",
+                "solved_at",
+                "closed_at",
+                "last_read",
+                "first_read",
+                "last_assignment",
+                "first_response",
+                "last_response",
+                "nps_value",
+                "spam",
+                "deleted",
+                "last_update"
+            ],
+            "columnas_contactos": [
+                "id",
+                "email",
+                "personal_id",
+                "phone",
+                "name",
+                "custom_fields"
+            ]
+        },
+        "types": {
+            "name": "types",
+            "last_date": "20211027",
+            "last_time": "0000",
+            "filename": "casetypes_",
+            "path": "F:\\XXXXXXX\\IN\\CaseTypes\\",
+            "types_out_path": "F:\\XXXXXXX\\OUT\\CaseTypes\\"
+        },
+        "users": {
+            "name": "users",
+            "last_date": "20211027",
+            "last_time": "0000",
+            "filename": "users_",
+            "path": "F:\\XXXXXXX\\IN\\Users\\",
+            "users_out_path": "F:\\XXXXXXX\\OUT\\Users\\"
+        },
+        "user_queues": {
+            "name": "user_queues",
+            "last_date": "20211027",
+            "last_time": "0000",
+            "filename": "userqueues_",
+            "path": "F:\\XXXXXXX\\IN\\UserQueues\\",
+            "out_path": "F:\\XXXXXXX\\OUT\\UserQueues\\"
+        }
+    }
+}

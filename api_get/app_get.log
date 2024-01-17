@@ -1,0 +1,6 @@
+17/01/2024 07:27:28 AM - PY_Query_Exec Msg: [WinError 3] El sistema no puede encontrar la ruta especificada: 'F:\\'  near line 417
+17/01/2024 07:27:28 AM - PY_Query_Exec Msg: ALERTA: Rango de Query demasiado largo, ver config.json, max_days_query  near line 561
+17/01/2024 07:27:28 AM - PY_Query_Exec Msg: Cantidad consultas API en esta ejecución: * 0 * consultas, realizadas en 0:00:00.003990 h:mm:ss:xxxxxx  near line 567
+17/01/2024 07:30:11 AM - PY_Query_Exec Msg: [WinError 3] El sistema no puede encontrar la ruta especificada: 'F:\\'  near line 417
+17/01/2024 07:30:11 AM - PY_Query_Exec Msg: ALERTA: Rango de Query demasiado largo, ver config.json, max_days_query  near line 561
+17/01/2024 07:30:11 AM - PY_Query_Exec Msg: Cantidad consultas API en esta ejecución: * 0 * consultas, realizadas en 0:00:00.002991 h:mm:ss:xxxxxx  near line 567
